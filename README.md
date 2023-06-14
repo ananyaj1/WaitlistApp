@@ -1,2 +1,2 @@
 # WaitlistApp
-Creating a waitlist web application with Node, Express, and Mongo.
+Mini project creating a waitlist web application with Node, Express, and Mongo.
