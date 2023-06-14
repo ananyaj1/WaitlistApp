@@ -1,0 +1,72 @@
+#bgvideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+main {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#centi {
+    width: 50%;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+h1 {
+    color: #B4DDC0;
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ 
+p {
+    font-size: 1em;
+    color: white;
+}
+
+#centi form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+ 
+#centi input {
+    background-color: #dfe6e9;
+    border: none;
+    padding: 1em;
+    width: 50%;
+    margin: 0;
+    font-size: 1em;
+}
+ 
+#centi button {
+    background-color: #B4DDC0;
+    padding: 1em;
+    width: 30%;
+    margin: 0;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1em;
+}
+#error {
+    color: #ff6b6b;
+    font-size: 1.5em;
+    align-self: self-start;
+}
+@media screen and (max-width: 1200px) {
+    #centi {
+        width: 100%;
+    }
+}
